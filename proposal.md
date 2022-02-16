@@ -7,6 +7,7 @@
 # Who benefits from exploring this question or building this model/system?
 - Consumers including credit card users
 - Credit card companies
+- Bankers
 - Cybersecurity professionals
 
 # Data Description:
