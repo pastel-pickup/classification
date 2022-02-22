@@ -8,6 +8,9 @@
 5. Logistic Regression CV with 10 folds was performed and classiciation report was produced
 6. Average precision-recall score: 0.00
 7. Average ROC_AUC score: 0.54
+8. Confusion matrix was produced for the classes
+![confusion_matrix](https://user-images.githubusercontent.com/67651332/155043410-dc31c111-4dcb-48e1-a44a-af910bc3167f.png)
+
 
 <img width="377" alt="logistic_regression_cv" src="https://user-images.githubusercontent.com/67651332/155042815-0e4790c4-cf3c-4096-be5c-b0f10a2eb81c.PNG">
 
