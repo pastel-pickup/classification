@@ -26,7 +26,7 @@
 - Matplotlib and Seaborn for data visualization
 
 # Are you planning in advance to need or use additional tools beyond those required?
-- might integrate AWS to experiment with cloud computing and cloud storage
+- might integrate a stacked classifier composed of KNN, Logistic Regression, Random Forest, and XGBoost
 
 # MVP Goal:
 # What would a minimum viable product (MVP) look like for this project?
