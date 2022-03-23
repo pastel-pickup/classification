@@ -25,16 +25,17 @@ According to Atlast VPN, credit card fraud occurences have increased 161% from 2
 This dataset was obtained from Kaggle on Feb 15th 2022. The dataset is a simulated credit card transaction dataset containing legitimate and fraud transactions from duration 1st Jan 2019 - 31st Dec 2020. It covers credit cards of 1000 customers doing transactions with a pool of 800 merchants. The dataset was simulated using Sparkov Data Generation | Github tool created by Brandon Harris. The dataset contains over 1 million rows and over 10 feature columns. For modeling, 10,000 rows and 21 features were extracted from original dataset. 
 
 # Algorithms
-1. Logistic Regression - Mean AUC score: 0.5
-2. Random Forest - Mean AUC score: .91
-3. Gradient Boost - Mean AUC score: .95
+1. Logistic Regression - tuned with stratified sampling, class weight balancing, and hyperparameters. For optimal class weights and hyperparameters, both RandomizedGridSearchCV and GridSearchCV were used to search for optimal parameters. Probability decision threshold was experimented and observed. Features were scaled using StandardScaler(). Consequently, the best F1 score yielded by the model was 0.48. 
 
-Sampling Performance:
-1. Random Oversampling - Mean AUC score:  .92
-2. Random Undersampling - Mean AUC score: .93
-3. SMOTE - Mean AUC score: .87
 
-Accordingly, the best classifier is Gradient Boost with Random Undersampling. 
+2. K-Nearest Neighbors (KNN) - the best K neighbor was searched by GridSearchCV and it was only 1. This was the only paramater that was experimented with in KNN. The model yielded 0.07. 
+
+
+3. Gaussian Naive Bayes - this model was the second best performer compared to Logistic Regression with not hyperparameter tuning and straight-out-of-the-box. The model yielded 0.42. 
+
+4. Random Forest - this model was performing also straight-out-of-the-box, yielding F1 score of .12. 
+
+5. XGBoost - this model was performing also straight-out-of-the-box, yielding F1 score of .24. 
 
 # Tools
 - Numpy and Pandas for data manipulation
