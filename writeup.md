@@ -2,7 +2,7 @@
 Mai Tran
 
 # Abstract
-According to Atlast VPN, credit card fraud occurences have increased 161% from 2015-2020. Therefore, it is imperative to prevent these occurences and to mitigate costs. This classification project explored simulated credit card transaction dataset from Kaggle which contains legitimate and fraud transactions from duration of Jan 1 2019 - Dec 31 2020. The best classifier found was a Logistic Regression with F1 Score of .48 with class weight adjustment and hyperparameter tuning. F1 Score was chosen as an evaluation metric to account for both high recall and high precision.
+According to Atlas VPN, credit card fraud occurences have increased 161% from 2015-2020. Therefore, it is imperative to prevent these occurences and to mitigate costs. This classification project explored simulated credit card transaction dataset from Kaggle which contains legitimate and fraud transactions from duration of Jan 1 2019 - Dec 31 2020. The best classifier found was a Logistic Regression with F1 Score of .48 with class weight adjustment and hyperparameter tuning. F1 Score was chosen as an evaluation metric to account for both high recall and high precision.
 
 # Design
 1. Collect data - said dataset from Kaggle was downloaded with over 1 million transaction rows, 21 features, and binary target class "is_fraud" being 1 (fraud) or 0 (valid). The features included: "trans_date_trans_time", "cc_num", "merchant", "category", "amt", "first", "last", "gender", "street", "city", "state", "zip", "lat", "long", "city_pop", "job", "dob", "trans_num", "unix_time", "merch_lat", "merch_long". 
