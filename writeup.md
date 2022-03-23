@@ -27,9 +27,6 @@ This dataset was obtained from Kaggle on Feb 15th 2022. The dataset is a simulat
 # Algorithms
 1. Logistic Regression - tuned with stratified sampling, class weight balancing, and hyperparameters. For optimal class weights and hyperparameters, both RandomizedGridSearchCV and GridSearchCV were used to search for optimal parameters. Probability decision threshold was experimented and observed. Features were scaled using StandardScaler(). Consequently, the best F1 score yielded by the model was 0.48. 
 
-<img width="528" alt="log_reg_tuning" src="https://user-images.githubusercontent.com/67651332/159618392-fa4d1677-77e5-4811-921c-000a35f4c26b.PNG">
-
-
 
 2. K-Nearest Neighbors (KNN) - the best K neighbor was searched by GridSearchCV and it was found to be only 1. This was the only paramater that was experimented with in KNN. The model yielded 0.07. 
 
@@ -46,4 +43,8 @@ This dataset was obtained from Kaggle on Feb 15th 2022. The dataset is a simulat
 - Matplotlib and Seaborn for plotting and visualizations
 
 # Communication
+<img width="528" alt="log_reg_tuning" src="https://user-images.githubusercontent.com/67651332/159618392-fa4d1677-77e5-4811-921c-000a35f4c26b.PNG">
+
 <img width="1500" alt="model_performance_edited" src="https://user-images.githubusercontent.com/67651332/159605374-41781578-d4ba-46aa-b896-be1953d57d6b.png">
+
+
